@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Dark Maze Quest.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Game Over.unity
+    guid: 93bca34f3cdb6e44cabdbab7a69458b3
+  - enabled: 1
+    path: Assets/Scenes/Trolled.unity
+    guid: 03b21d1ed4c2bc44b845c8dc5be3a55a
+  m_configObjects: {}
