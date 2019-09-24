@@ -27,7 +27,7 @@ public class stbt : MonoBehaviour
             Instantiate(bullets, shotLoc.position, shotLoc.rotation);
 
 
-        }
+        }   
 
     }
 }
