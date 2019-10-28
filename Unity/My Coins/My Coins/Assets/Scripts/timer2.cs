@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class timer2 : MonoBehaviour
 {
@@ -27,7 +28,7 @@ public class timer2 : MonoBehaviour
         if (tmr < 0)
         {
 
-            text.text = "GAME OVER";
+            SceneManager.LoadScene(2);
 
         }
 

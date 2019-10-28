@@ -25,7 +25,7 @@ public class timer : MonoBehaviour
         tmr -= Time.deltaTime;
         text.text = "Time Left:" + Mathf.Round(tmr);
 
-        if (tmr >= 4.99999 && tmr <= 5.00001)
+        if (tmr < 0)
         {
             
             SceneManager.LoadScene(1);
